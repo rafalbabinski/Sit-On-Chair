@@ -6,7 +6,7 @@ My first website. I have created this page during workshop in CodersLab - Code S
 * drop down lists
 * css animations
 * hover effects
-* calculator, simple application, where you can modificate product and check price
+* calculator, simple application, where you can modify product and check price
 * contact form
 
 ### Technologies used:
