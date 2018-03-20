@@ -13,3 +13,5 @@ My first website. I have created this page during workshop in CodersLab - Code S
 * HTML
 * CSS
 * JavaScript
+
+## [DEMO](https://rafalbabinski.github.io/Sit-On-Chair)
