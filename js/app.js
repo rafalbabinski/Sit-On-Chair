@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Menu mobile
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.addEventListener('click', function() {
+        this.nextElementSibling.classList.toggle('visible')});
 
    // Dropdown submenu
    const menuOption = document.querySelectorAll('.menu__option');

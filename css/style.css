@@ -72,6 +72,15 @@ header, section, footer {
    display: none;
 }
 
+.hamburger {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+    color: white;
+}
+
 /* Triangle in submenu */
 
 .submenu:before {
@@ -97,7 +106,7 @@ header, section, footer {
 }
 
 .intro {
-   padding-top: 80px;
+   padding-top: 50px;
    padding-bottom: 30px;
    background: linear-gradient(#FAFAFA, #D0CFD7);
 }
@@ -722,14 +731,42 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .topbar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        padding: 10px 0;
+    }
+    .topbar .container {
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+    .menu {
+        display: none;
+    }
+    .hamburger {
+        margin-right: 10px;
+        display: block;
+        align-self: flex-end;
+        color: white;
+    }
+    .menu-mobile {
+        padding: 10px;
+        width: 100%;
+        list-style-type: none;
+        text-align: center;
+        color: white;
+        background-color: #000;
+    }
+    .menu-mobile__option {
+        padding: 5px;  
+    }
     .gallery, .contact, .prices, .application {
         padding: 20px 0;
     }
     .logo {
+        margin-left: 10px;
         align-self: flex-start;
-    }
-    .menu {
-        display: none;
     }
     .intro .container {
         flex-direction: row;
