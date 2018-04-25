@@ -9,9 +9,7 @@ My first website. I have created this page during workshop in CodersLab - Code S
 * calculator, simple application, where you can modify product and check price
 * contact form
 
-### Technologies used:
-* HTML
-* CSS
-* JavaScript
+#### Technologies:
+HTML, CSS, JavaScript, RWD
 
 ## [DEMO](https://rafalbabinski.github.io/Sit-On-Chair)
