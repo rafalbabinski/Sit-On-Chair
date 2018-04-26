@@ -795,9 +795,15 @@ footer {
         justify-content: center;
     }
     .intro__arrow {
-        width: 10%;
+        width: 15%;
         margin: 0;
         font-size: 80px;
+    }
+    .intro__arrow:first-of-type {
+        text-align: right;
+    }
+    .intro__arrow:last-of-type {
+        text-align: left;
     }
     .intro__box {
         width: 70%;
@@ -893,11 +899,7 @@ footer {
         width: 90%;
     }
     .intro__arrow {
-        width: 15%;
         font-size: 100px;
-    }
-    .intro__arrow:first-of-type {
-        text-align: right;
     }
     .prices .container {
         flex-direction: row;
